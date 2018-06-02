@@ -1,0 +1,9 @@
+To build the code just run `make`. This will generate the tile binary.
+
+USAGE:
+./tile [k] 
+
+- k has to be greater than 2. I've tested k till 512 on my machine beyond which it gives 'inf' as output. Passing k is optional. If no argument is passed the program sets k as 3 by default.
+
+OUTPUT:
+It prints the number of squares covered (and percentage area) by each tile A, B, C and D.

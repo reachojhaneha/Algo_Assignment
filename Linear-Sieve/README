@@ -1,0 +1,9 @@
+To build the code just run `make`. This will generate the linear_sieve binary.
+
+USAGE:
+./linear_sieve [N] 
+
+- N can be as large as maximum integer. Passing N is optional. If no argument is passed the program sets N as 100 by default.
+
+OUTPUT:
+It prints all prime number between 2 and N
